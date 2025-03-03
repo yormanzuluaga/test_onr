@@ -1,0 +1,27 @@
+name: api_repository
+description: "A new Flutter package project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.6.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dartz: ^0.10.0
+  onr_ui:
+    path: ../onr_ui
+  api_helper:
+    path: ../api_helper
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+
